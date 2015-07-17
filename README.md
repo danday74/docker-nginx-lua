@@ -17,7 +17,7 @@ Automated
 
 The master branch on this repo is watched by an automated docker build
 
-Which builds the docker image **danday74/nginx-lua** on a push to master
+Which builds docker image **danday74/nginx-lua** on push to master
 
 Usage
 -----
