@@ -3,7 +3,7 @@ docker-nginx-lua
 
 Dockerised Nginx, with Lua module, built from source
 
-The docker image is based on the manual compilation instructions at ..
+The docker image is based on the manual compilation instructions at ...
 
 http://wiki.nginx.org/HttpLuaModule#Installation
 
