@@ -1,9 +1,11 @@
 docker-nginx-lua
 ================
 
-Dockerised Nginx with Lua module built from source
+Dockerised Nginx, with Lua module, built from source
 
-See http://wiki.nginx.org/HttpLuaModule#Installation
+The docker image is based on the manual compilation instructions at ..
+
+http://wiki.nginx.org/HttpLuaModule#Installation
 
 Useful for those who want Nginx with Lua but don't want to use OpenResty
 
@@ -11,6 +13,7 @@ Automated
 ---------
 
 The master branch on this repo is watched by an automated docker build
+
 Which builds the docker image <b>danday74/nginx-lua</b> on a push to master branch
 
 Usage
