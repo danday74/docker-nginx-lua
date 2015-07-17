@@ -22,7 +22,7 @@ Which builds the docker image <b>danday74/nginx-lua</b> on a push to master
 Usage
 -----
 
-1. Create your own dockerfile ...
+1. Create your own Dockerfile ...
 
     ```
     FROM: danday74/nginx-lua
