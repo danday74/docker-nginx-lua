@@ -6,9 +6,9 @@ Useful for those who want Nginx with Lua but don't want to use OpenResty
 
 # Automated
 
-This repo is watched by a docker automated build that builds the docker image <b>danday74/nginx-lua</b>
+The master branch on this repo is watched by a docker automated build that builds the docker image <b>danday74/nginx-lua</b>
 
-# USAGE
+# Usage
 
 (1) Create your own dockerfile ...
 
@@ -24,7 +24,7 @@ location /hellolua {
   ';
 }
 
-INFO: If you don't have an nginx.conf file then use the one in this repo
+INFO: If you don't have an nginx.conf file then use the one in this repo which has this location block in it already (recommended)
 
 (3) Build your docker image
 (4) Run your docker container
