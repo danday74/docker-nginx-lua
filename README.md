@@ -43,5 +43,7 @@ Usage
     If you don't have an **nginx.conf** file then use the one provided in the github repo
 
 3. Build your docker image
+
 4. Run your docker container - Remember to use **-p YOUR_PORT:80** in your docker run statement
+
 5. Visit http://your-docker-container:YOUR_PORT/hellolua
