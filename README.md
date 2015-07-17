@@ -37,7 +37,7 @@ Usage
     }
     ```
 
-    **TIP**: If you don't have an **nginx.conf** file then use the one in this repo
+    If you don't have an **nginx.conf** file then use the one in this repo
 
 3. Build your docker image
 4. Run your docker container - Remember to use ... -p YOUR_PORT:80 .. in your docker run statement
