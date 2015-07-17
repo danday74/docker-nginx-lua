@@ -38,7 +38,9 @@ location /hellolua {
 ```
 
 **TIP**:
+
 If you don't have an **nginx.conf** file then use the one in this repo
+
 This file has the above location block in it already
 
 3. Build your docker image
