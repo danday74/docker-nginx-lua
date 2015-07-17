@@ -1,6 +1,10 @@
 docker-nginx-lua
 ================
 
+![alt text](https://img.shields.io/docker/pulls/danday74/nginx-lua.png "Docker pulls")
+
+![alt text](https://img.shields.io/docker/stars/danday74/nginx-lua.png "Docker stars")
+
 Dockerised Nginx, with Lua module, built from source
 
 The docker image is based on the manual compilation instructions at ...
