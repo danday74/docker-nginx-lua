@@ -1,8 +1,8 @@
 docker-nginx-lua
 ================
 
-![alt text](https://img.shields.io/docker/pulls/danday74/nginx-lua.png "Docker pulls")
-![alt text](https://img.shields.io/docker/stars/danday74/nginx-lua.png "Docker stars")
+![Docker pulls](https://img.shields.io/docker/pulls/danday74/nginx-lua.png "Docker pulls")
+![Docker stars](https://img.shields.io/docker/stars/danday74/nginx-lua.png "Docker stars")
 
 Dockerised Nginx, with Lua module, built from source
 
@@ -17,7 +17,7 @@ Automated
 
 The master branch on this repo is watched by an automated docker build
 
-Which builds the docker image <b>danday74/nginx-lua</b> on a push to master
+Which builds the docker image **danday74/nginx-lua** on a push to master
 
 Usage
 -----
