@@ -5,9 +5,9 @@ docker-nginx-lua
 &nbsp;
 ![Docker pulls](https://img.shields.io/docker/pulls/danday74/nginx-lua.png "Docker pulls")
 
-[![Docker repo](https://github.com/danday74/docker-nginx-lua/blob/master/images/docker.png "Docker repo")](https://registry.hub.docker.com/u/danday74/nginx-lua)
+[![Docker repo](https://github.com/danday74/docker-nginx-lua/blob/master/images/docker.png?raw=true "Docker repo")](https://registry.hub.docker.com/u/danday74/nginx-lua)
 &nbsp;
-[![Github repo](https://github.com/danday74/docker-nginx-lua/blob/master/images/github.png "Github repo")](https://github.com/danday74/docker-nginx-lua)
+[![Github repo](https://github.com/danday74/docker-nginx-lua/blob/master/images/github.png?raw=true "Github repo")](https://github.com/danday74/docker-nginx-lua)
 
 Dockerised Nginx, with Lua module, built from source
 
