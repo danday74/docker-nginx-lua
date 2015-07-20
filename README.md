@@ -13,7 +13,7 @@ Dockerised Nginx, with Lua module, built from source
 
 The docker image is based on the manual compilation instructions at ...
 
-http://wiki.nginx.org/HttpLuaModule#Installation
+[http://wiki.nginx.org/HttpLuaModule#Installation](http://wiki.nginx.org/HttpLuaModule#Installation)
 
 Useful for those who want Nginx with Lua but don't want to use OpenResty
 
