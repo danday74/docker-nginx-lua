@@ -46,6 +46,8 @@ Usage
     ```
 
     If you don't have an **nginx.conf** file then use the one provided in the github repo
+    
+    The conf file provided is the default conf file generated from the build with the above location block added
 
 3. Build your docker image
 
