@@ -1,5 +1,5 @@
-docker-nginx-lua
-================
+nginx-lua
+=========
 
 ![Docker stars](https://img.shields.io/docker/stars/danday74/nginx-lua.png "Docker stars")
 &nbsp;
