@@ -38,7 +38,7 @@ Usage
     }
     ```
 
-    If you don't have an **nginx.conf** file then use the one provided in the github repo
+    If you don't have an **nginx.conf** file then use [the conf file](https://raw.githubusercontent.com/danday74/docker-nginx-lua/master/nginx.conf) provided in the github repo
     
     The conf file provided is the default generated conf file with the above location block added
 
