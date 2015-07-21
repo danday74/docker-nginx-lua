@@ -30,19 +30,19 @@ Usage
 1. Create your own Dockerfile ...
 
     ```
-FROM danday74/nginx-lua
-COPY /your/nginx.conf /nginx/conf/nginx.conf
+    FROM danday74/nginx-lua
+    COPY /your/nginx.conf /nginx/conf/nginx.conf
     ```
 
 2. Add this location block to your **nginx.conf** file
 
     ```
-location /hellolua {
-  content_by_lua '
-    ngx.header["Content-Type"] = "text/plain";
-    ngx.say("hello world");
-  ';
-}
+    location /hellolua {
+        content_by_lua '
+            ngx.header["Content-Type"] = "text/plain";
+            ngx.say("hello world");
+        ';
+    }
     ```
 
     If you don't have an **nginx.conf** file then use the one provided in the github repo
