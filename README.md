@@ -20,7 +20,7 @@ Useful for those who want Nginx with Lua but don't want to use OpenResty
 Usage
 -----
 
-1. Create your own Dockerfile ...
+1. Create your own **Dockerfile** ...
 
     ```
     FROM danday74/nginx-lua
