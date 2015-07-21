@@ -17,13 +17,6 @@ The docker image is based on the manual compilation instructions at ...
 
 Useful for those who want Nginx with Lua but don't want to use OpenResty
 
-Automated
----------
-
-The master branch on the github repo is watched by an automated docker build
-
-Which builds docker image **danday74/nginx-lua** on push to master
-
 Usage
 -----
 
@@ -54,3 +47,12 @@ Usage
 4. Run your docker container - Remember to use **-p YOUR_PORT:80** in your docker run statement
 
 5. Visit http://your-docker-container:YOUR_PORT/hellolua
+
+Automated
+---------
+
+The master branch on the github repo is watched by an automated docker build
+
+Which builds docker image **danday74/nginx-lua** on push to master
+
+On success, the docker build triggers the docker repo's webhooks (if any)
