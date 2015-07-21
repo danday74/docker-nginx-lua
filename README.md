@@ -46,7 +46,7 @@ Usage
 
 4. Run your docker container - Remember to use **-p YOUR_PORT:80** in your docker run statement
 
-5. Visit http://your-docker-container:YOUR_PORT/hellolua
+5. Visit http://localhost:YOUR_PORT/hellolua
 
 Automated
 ---------
