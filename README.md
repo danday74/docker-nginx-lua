@@ -30,8 +30,8 @@ Usage
 1. Create your own Dockerfile ...
 
     ```
-FROM: danday74/nginx-lua
-COPY: /your/nginx.conf /nginx/conf/nginx.conf
+FROM danday74/nginx-lua
+COPY /your/nginx.conf /nginx/conf/nginx.conf
     ```
 
 2. Add this location block to your **nginx.conf** file
