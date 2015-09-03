@@ -62,4 +62,4 @@ License
 
 [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-Please use free and do whatever you want with it!
+APACHE LICENSE-2.0 .. In other words, please use freely and do whatever you want with it!
