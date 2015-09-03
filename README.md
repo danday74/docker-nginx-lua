@@ -56,3 +56,8 @@ The master branch on the github repo is watched by an automated docker build
 Which builds docker image **danday74/nginx-lua** on push to master
 
 On success, the docker build triggers the docker repo's webhooks (if any)
+
+License
+-------
+
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
