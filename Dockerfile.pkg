@@ -1,0 +1,26 @@
+FROM nginx-luajit
+
+ENV MAINTAINER 'Renoir Boulanger <hello@renoirboulanger.com>'
+
+WORKDIR /
+
+RUN    apt-get -qq -y install ruby-dev gcc \
+    && gem install fpm \
+    && cd / \
+    && fpm -s dir -t deb -n nginx-core -v ${VER_NGINX} \
+        --replaces nginx-core \
+        -m "$MAINTAINER" \
+        --vendor "$MAINTAINER" \
+        --description 'Custom build of NGINX with FancyIndex, HTTP/2.0, OpenResty Memcached module, Lua, SSL, gzip_static, gunzip, headers_more, realip, accept_language modules enabled' \
+        $NGINX_ROOT \
+    && fpm -s dir -t deb -n libluajit -v ${VER_LUAJIT} \
+       --replaces libluajit \
+       usr/share/doc/lua5.1 usr/include/lua5.1 usr/local/lib/lua \
+       usr/local/include/luajit-2.0 usr/local/share/luajit-${VER_LUAJIT} \
+       usr/local/share/lua \
+       usr/local/lib/libluajit-5.1.a \
+       usr/local/lib/libluajit-5.1.so \
+       usr/local/lib/libluajit-5.1.so.2 \
+       usr/local/lib/libluajit-5.1.so.${VER_LUAJIT} \
+    && mv *.deb opt/
+
