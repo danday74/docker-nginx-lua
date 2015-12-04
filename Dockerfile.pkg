@@ -1,0 +1,5 @@
+FROM nginx-build
+
+RUN apt-get -qq -y install ruby-dev gcc \
+    && gem install fpm
+
